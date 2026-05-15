@@ -73,14 +73,10 @@ The hardware ecosystem is divided between a Ground Control PC Station and the Go
 
 ## 4. Results
 
-### (a) Project Performance and Task Execution
-The Go2W successfully completed high-speed autonomous laps around the BARC track. Achieving this required solving two major Sim2Real deployment hurdles:
+### (a) Sim2Real Transfer
+We solved two main challenges when doing the sim2real transfer of the RL policy:
 * **Overcoming Sensor Latency:** Early tests showed severe hardware jitter due to an unmodeled 10–15ms latency in the onboard joint sensors. We implemented Domain Randomization by adding delay buffers in the simulator, treating latency as a randomized training parameter.
 * **Motor Overload Protection:** The initial RL agent exhibited reward hacking by utilizing aggressive gaits that sustained 20Nm of torque, triggering an "Error 16" hardware overload in just 20 seconds. We applied Reward Shaping to penalize high energy use and torque variance, successfully enforcing a balanced power distribution below a 15Nm benchmark. This optimized the policy to be significantly more torque-efficient and motor-friendly, dropping energy consumption from 124,622 Joules down to 85,833 Joules—making the system 1.45x more energy efficient. 
-
-### (b) Visuals
-*(Insert Joint Torque Charts)*
-`![Torque Comparison Charts](path/to/torque_charts.png)`
 
 ---
 
