@@ -54,7 +54,7 @@ The hardware ecosystem is divided between a Ground Control PC Station and the Go
 * **Go2W Robot:** Houses the onboard sensors (joint encoders) and actuators (motor drivers), and executes the RL controller. 
 
 ### (c) Software Stack
-`design_clearer.png`
+![Control Stack](design_clearer.png)
 
 * **High-Level MPPI Planner:** This node runs on the PC at a 10 Hz refresh rate. It utilizes the newly developed Planner-Resolution Implicit System Model (PRISM) as its internal dynamics engine. PRISM allows for rapid sampling-based optimization with a solving time of 0.08s per solving step. 
 * **Low-Level RL Velocity Tracker:** This is a PPO-trained neural network running directly on the quadruped. We trained our own pipeline (based on `fan-ziqi/robot_lab`), because commercial Unitree RL trackers are closed-source and existing open-source projects lack deployment pipelines and model weights. 
