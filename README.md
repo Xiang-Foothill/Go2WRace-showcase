@@ -3,6 +3,8 @@
 **Team Member:** Yuxiang Liu  
 **Affiliation:** Model Predictive Control (MPC) Lab, UC Berkeley  
 
+!(racing demo)[full_stack racing.mp4]
+
 ---
 
 ## 1. Introduction
@@ -77,8 +79,6 @@ The Go2W successfully completed high-speed autonomous laps around the BARC track
 ### (b) Visuals
 *(Insert Joint Torque Charts)*
 `![Torque Comparison Charts](path/to/torque_charts.png)`
-
-`full_stack.mp4`
 
 ---
 
