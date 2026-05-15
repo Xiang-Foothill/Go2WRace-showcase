@@ -46,7 +46,7 @@ This division of labor highly benefits system robustness and efficiency. The hig
 ### (a) Hardware Setup
 The hardware ecosystem is divided between a Ground Control PC Station and the Go2W Robot. 
 
-``
+`hardware_setup.png`
 
 ### (b) System Components
 * **OptiTrack Server:** Provides real-time state estimation (position, orientation, and velocity).
@@ -54,8 +54,7 @@ The hardware ecosystem is divided between a Ground Control PC Station and the Go
 * **Go2W Robot:** Houses the onboard sensors (joint encoders) and actuators (motor drivers), and executes the RL controller. 
 
 ### (c) Software Stack
-*(Insert Control Pipeline Flowchart)*
-`![Control Pipeline Flowchart](path/to/control_pipeline.png)`
+`design_clearer.png`
 
 * **High-Level MPPI Planner:** This node runs on the PC at a 10 Hz refresh rate. It utilizes the newly developed Planner-Resolution Implicit System Model (PRISM) as its internal dynamics engine. PRISM allows for rapid sampling-based optimization with a solving time of 0.08s per solving step. 
 * **Low-Level RL Velocity Tracker:** This is a PPO-trained neural network running directly on the quadruped. We trained our own pipeline (based on `fan-ziqi/robot_lab`), because commercial Unitree RL trackers are closed-source and existing open-source projects lack deployment pipelines and model weights. 
@@ -79,8 +78,7 @@ The Go2W successfully completed high-speed autonomous laps around the BARC track
 *(Insert Joint Torque Charts)*
 `![Torque Comparison Charts](path/to/torque_charts.png)`
 
-*(Insert Full-Stack Racing Video)*
-`[Watch the Go2W Racing Video Here](link-to-youtube-or-hosted-video)`
+`full_stack.mp4`
 
 ---
 
