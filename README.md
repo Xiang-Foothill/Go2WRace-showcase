@@ -3,7 +3,7 @@
 **Team Member:** Yuxiang Liu  
 **Affiliation:** Model Predictive Control (MPC) Lab, UC Berkeley  
 
-![racing demo](full_stack racing.mp4)
+![full_stack racing.mp4](https://youtu.be/MmMLaRlwG2E)
 
 ---
 
