@@ -8,7 +8,7 @@
 ## 1. Introduction
 
 ### (a) Project End Goal
-The primary objective of this project is to empower the Unitree Go2W robot to conquer the Berkeley Autonomous Racing Car (BARC) L-shaped track, achieving ultra-stable and high-speed autonomous racing.
+Empower the Unitree Go2W robot to conquer the Berkeley Autonomous Racing Car (BARC) L-shaped track, achieving ultra-stable and high-speed autonomous racing.
 
 ### (b) Motivation and Engineering Challenges
 Controlling a wheeled quadruped at high speeds requires a delicate balance of navigation and complex joint articulation. To make the system work, several core technical problems must be solved:
@@ -37,7 +37,7 @@ Neither a pure MPC nor a pure RL approach was viable for the full stack:
 By splitting the stack, we traded the theoretical simplicity of an end-to-end model for the practical robustness of a divided architecture. We assigned path planning to an MPPI (Model Predictive Path Integral) planner and velocity tracking to a robust RL policy. 
 
 ### (d) Impact on Real-World Engineering Criteria
-This division of labor highly benefits system robustness and efficiency. The high-level MPPI iteratively generates a visual trajectory swarm and selects the optimal path for the specific track, ensuring generalization and adaptability. Simultaneously, the low-level RL tracker handles the complex nonlinear dynamics and hardware disturbances, operating efficiently enough to maintain a high control frequency.
+This division of labor highly benefits system robustness and efficiency. The high-level MPPI iteratively generates a trajectory swarm and selects the optimal path for the specific track, ensuring generalization and adaptability. Simultaneously, the low-level RL tracker handles the complex nonlinear dynamics and hardware disturbances, operating efficiently enough to maintain a high control frequency.
 
 ---
 
