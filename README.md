@@ -3,11 +3,9 @@
 **Team Member:** Yuxiang Liu  
 **Affiliation:** Model Predictive Control (MPC) Lab, UC Berkeley  
 
-<div align="center">
-  <video width="100%" max-width="700px" controls>
-    <source src="full-stack racing.mp4" type="video/mp4">
-  </video>
-</div>
+https://github.com/user-attachments/assets/49bc2931-9bf6-4b8b-adf9-301fe95db7e3
+
+
 
 ---
 
