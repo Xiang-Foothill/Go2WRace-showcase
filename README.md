@@ -3,7 +3,9 @@
 **Team Member:** Yuxiang Liu  
 **Affiliation:** Model Predictive Control (MPC) Lab, UC Berkeley  
 
-[![Go2W Full Stack Racing Demonstration](https://img.youtube.com/vi/MmMLaRlwG2E/maxresdefault.jpg)](https://youtu.be/MmMLaRlwG2E "Click to Watch the Go2W Full Stack Racing Demonstration")
+<div align="center">
+  <iframe width="700" height="394" src="https://www.youtube.com/embed/MmMLaRlwG2E" title="Go2W Full Stack Racing Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ---
 
