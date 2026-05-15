@@ -5,7 +5,7 @@
 
 <div align="center">
   <video width="100%" max-width="700px" controls>
-    <source src="full-stack%20racing.mp4" type="video/mp4">
+    <source src="full-stack racing.mp4" type="video/mp4">
   </video>
 </div>
 
