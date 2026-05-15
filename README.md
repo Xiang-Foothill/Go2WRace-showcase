@@ -46,8 +46,7 @@ This division of labor highly benefits system robustness and efficiency. The hig
 ### (a) Hardware Setup
 The hardware ecosystem is divided between a Ground Control PC Station and the Go2W Robot. 
 
-*(Insert System Architecture Image)*
-`![Hardware Setup Diagram](path/to/hardware_setup.png)`
+``
 
 ### (b) System Components
 * **OptiTrack Server:** Provides real-time state estimation (position, orientation, and velocity).
