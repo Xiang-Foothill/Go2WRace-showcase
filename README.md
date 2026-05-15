@@ -4,7 +4,10 @@
 **Affiliation:** Model Predictive Control (MPC) Lab, UC Berkeley  
 
 <div align="center">
-  <iframe width="700" height="394" src="https://www.youtube.com/embed/MmMLaRlwG2E" title="Go2W Full Stack Racing Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <video width="100%" max-width="700px" controls>
+    <source src="full-stack%20racing.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ---
